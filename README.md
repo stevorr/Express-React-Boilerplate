@@ -9,12 +9,12 @@ See the official Create React App [readme](https://github.com/facebook/create-re
 See the official Express [readme](https://github.com/expressjs/express/blob/e242796eb343c1e1e17c963dfb09d751a85b3c68/Readme.md) for more info
 
 ## How to Run App
-1. Navigate to the **backend** folder and run 
-`npm start`
-in a terminal to start the Express server on [http://localhost:3001](http://localhost:3001)
+1. In a terminal, navigate to the **backend** folder and run\
+ `npm install` to install dependencies\
+ `npm start` to start the Express server on [http://localhost:3001](http://localhost:3001)
 
-2. Navigate to the **client** folder and run
-`npm start`
-in a terminal to start the React app in development mode on [http://localhost:3000](http://localhost:3000) 
+2. In a terminal, navigate to the **client** folder and run\
+`npm install` to install dependencies\
+`npm start` to start the React app in development mode on [http://localhost:3000](http://localhost:3000) 
 
 Open [http://localhost:3000](http://localhost:3000) to view the React app in the browser
