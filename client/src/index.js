@@ -5,7 +5,9 @@ import App from './App';
 
 render(
   <StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </StrictMode>,
   document.getElementById('root')
 );
