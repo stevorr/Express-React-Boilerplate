@@ -1,7 +1,7 @@
-export default function StartHere() {
+export default function Home() {
     return (
         <div className="text-center">
-            <h1>StartHere</h1>
+            <h1>Home</h1>
         </div >
     );
 }

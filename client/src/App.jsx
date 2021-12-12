@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom'
+import { Routes, Route, Outlet } from 'react-router-dom'
 import { useEffect } from 'react'
 import About from './components/routes/About'
 import Contact from './components/routes/Contact'
@@ -9,9 +9,9 @@ import GlobalNav from './components/GlobalNav'
 
 export default function App() {
 
-  //test API call to backend and log response. express proxy address set in client/package.json
+  //test API call to backend and log response. express proxy address is set in client/package.json
   useEffect(() => {
-    fetch('/users')
+    fetch('/test')
       .then(response => response.text())
       .then(data => console.log({ data }))
   }, [])
@@ -20,7 +20,7 @@ export default function App() {
 
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
+        <Route index element={<Home />} /> {/* "index" here marks which component gets rendered when path is "/" to "<Outlet />" component below */}
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
         <Route path="*" element={<PageNotFound />} />
