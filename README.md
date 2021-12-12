@@ -1,6 +1,6 @@
 # Express-React-Boilerplate
 
-This project template was built with [Create React App](https://github.com/facebook/create-react-app), [Express Generator](https://expressjs.com/en/starter/generator.html), and [Tailwind CSS](https://tailwindcss.com/docs/guides/create-react-app) to serve as a starter point for future React app projects using functional components + hooks
+This React/Express template is built with [Create React App](https://github.com/facebook/create-react-app), [Express Generator](https://expressjs.com/en/starter/generator.html), and [Tailwind CSS](https://tailwindcss.com/docs/guides/create-react-app) to serve as a starter point for future React app projects using functional components + hooks
 
 ### Create React App
 
