@@ -1,4 +1,3 @@
-import './App.css'
 import { Routes, Route, Outlet } from 'react-router-dom'
 import { useEffect } from 'react'
 import About from './components/routes/About'
@@ -20,7 +19,7 @@ export default function App() {
 
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} /> {/* "index" here marks which component gets rendered when path is "/" to "<Outlet />" component below */}
+        <Route index element={<Home />} /> {/* "index" here marks the default component which gets rendered in the "<Outlet />" component below when no child route is specified */}
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
         <Route path="*" element={<PageNotFound />} />
