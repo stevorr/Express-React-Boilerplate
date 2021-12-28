@@ -16,7 +16,6 @@ export default function App() {
   }, [])
 
   return (
-
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} /> {/* "index" here marks the default component which gets rendered in the "<Outlet />" component below when no child route is specified */}
@@ -25,7 +24,7 @@ export default function App() {
         <Route path="*" element={<PageNotFound />} />
       </Route>
     </Routes>
-  );
+  )
 }
 
 function Layout() {
